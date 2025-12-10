@@ -39,7 +39,6 @@ namespace Server
 
             try
             {
-                Logger.Log("INFO", "Starting RunAsync");
                 RunAsync().GetAwaiter().GetResult();
             }
             catch (Exception ex)
@@ -56,9 +55,9 @@ namespace Server
             var listener = new HybridConnectionListener(connectionString);
 
             // Subscribe to the status events.
-            listener.Connecting += (o, e) => { Logger.Log("INFO", "Connecting"); };
-            listener.Offline += (o, e) => { Logger.Log("WARN", "Offline" /*, listener.LastError*/); };
-            listener.Online += (o, e) => { Logger.Log("INFO", "Online"); };
+            listener.Connecting += (o, e) => { Console.WriteLine("Connecting"); };
+            listener.Offline += (o, e) => { Console.WriteLine("Offline"); };
+            listener.Online += (o, e) => { Console.WriteLine("Online"); };
 
             // Provide an HTTP request handler with simple path routing and exception safety
             listener.RequestHandler = (context) =>
@@ -94,7 +93,7 @@ namespace Server
                     }
 
                     // 404 if no handler found
-                    Logger.Log("INFO", $"Not Found: {path}");
+                    Console.WriteLine($"Not Found: {path}");
                     context.Response.StatusCode = HttpStatusCode.NotFound;
                     context.Response.StatusDescription = "Not Found";
                     WriteHtml(context, "<h1>404 Not Found</h1>");
@@ -109,7 +108,7 @@ namespace Server
             try
             {
                 await listener.OpenAsync();
-                Logger.Log("INFO", "Server listening");
+                Console.WriteLine("Server listening");
             }
             catch (Exception openEx)
             {
@@ -129,7 +128,6 @@ namespace Server
             try
             {
                 await listener.CloseAsync();
-                Logger.Log("INFO", "Listener closed");
             }
             catch (Exception closeEx)
             {
@@ -168,7 +166,7 @@ namespace Server
                 // Log request details
                 if (!string.IsNullOrEmpty(bodyText))
                 {
-                    Logger.Log("INFO", $"Request body: {bodyText}");
+                    Logger.Log("INFO", $"{bodyText}");
                 }
                 else
                 {

@@ -13,6 +13,10 @@ namespace Server
 
         public static void Log(string level, string message, Exception? ex = null, bool isError = false)
         {
+            if (message.Length < 5)
+            {
+                return; // ignore very short messages
+            }
             var line = $"{DateTime.UtcNow:o} [{level}] {message}" + (ex != null ? $" | {ex}" : string.Empty);
             try
             {
