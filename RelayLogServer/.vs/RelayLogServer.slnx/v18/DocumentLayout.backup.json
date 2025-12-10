@@ -1,0 +1,80 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jacobjordan\\Documents\\mrtathon2025\\Relay-I\\RelayLogServer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9854B9E8-4C29-E4C4-D916-4EF91D7C36D1}|RelayLogServer\\RelayLogServer.csproj|c:\\users\\jacobjordan\\documents\\mrtathon2025\\relay-i\\relaylogserver\\relaylogserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9854B9E8-4C29-E4C4-D916-4EF91D7C36D1}|RelayLogServer\\RelayLogServer.csproj|solutionrelative:relaylogserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9854B9E8-4C29-E4C4-D916-4EF91D7C36D1}|RelayLogServer\\RelayLogServer.csproj|c:\\users\\jacobjordan\\documents\\mrtathon2025\\relay-i\\relaylogserver\\relaylogserver\\relaylogserver.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{9854B9E8-4C29-E4C4-D916-4EF91D7C36D1}|RelayLogServer\\RelayLogServer.csproj|solutionrelative:relaylogserver\\relaylogserver.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9854B9E8-4C29-E4C4-D916-4EF91D7C36D1}|RelayLogServer\\RelayLogServer.csproj|c:\\users\\jacobjordan\\documents\\mrtathon2025\\relay-i\\relaylogserver\\relaylogserver\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9854B9E8-4C29-E4C4-D916-4EF91D7C36D1}|RelayLogServer\\RelayLogServer.csproj|solutionrelative:relaylogserver\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Logger.cs",
+              "DocumentMoniker": "C:\\Users\\jacobjordan\\Documents\\mrtathon2025\\Relay-I\\RelayLogServer\\RelayLogServer\\Logger.cs",
+              "RelativeDocumentMoniker": "RelayLogServer\\Logger.cs",
+              "ToolTip": "C:\\Users\\jacobjordan\\Documents\\mrtathon2025\\Relay-I\\RelayLogServer\\RelayLogServer\\Logger.cs",
+              "RelativeToolTip": "RelayLogServer\\Logger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T22:16:42.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RelayLogServer",
+              "DocumentMoniker": "C:\\Users\\jacobjordan\\Documents\\mrtathon2025\\Relay-I\\RelayLogServer\\RelayLogServer\\RelayLogServer.csproj",
+              "RelativeDocumentMoniker": "RelayLogServer\\RelayLogServer.csproj",
+              "ToolTip": "C:\\Users\\jacobjordan\\Documents\\mrtathon2025\\Relay-I\\RelayLogServer\\RelayLogServer\\RelayLogServer.csproj",
+              "RelativeToolTip": "RelayLogServer\\RelayLogServer.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-08T22:11:57.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jacobjordan\\Documents\\mrtathon2025\\Relay-I\\RelayLogServer\\RelayLogServer\\Program.cs",
+              "RelativeDocumentMoniker": "RelayLogServer\\Program.cs",
+              "ToolTip": "C:\\Users\\jacobjordan\\Documents\\mrtathon2025\\Relay-I\\RelayLogServer\\RelayLogServer\\Program.cs",
+              "RelativeToolTip": "RelayLogServer\\Program.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAqwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T22:11:51.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
