@@ -1,5 +1,7 @@
 # Relay-I
 
+The purpose of this project is to provide anonymous video game session logging and AI analysis.
+
 Play the Demo: https://mrtathon2025-temp.itch.io/relay-i-demo
 
 ## Background
