@@ -30,6 +30,8 @@ You can read more about Azure Relay here: https://learn.microsoft.com/en-us/azur
 HTTPRequest node is used in the relay_client.gd script (in logging folder) to send logs to the Relay server.
 This game is based on Brackey's tutorial: https://github.com/Brackeys/first-game-in-godot
 
+PII is not collected.
+
 ## AI Analysis
 
 The FoundryServer creates an agent with pre-made instructions, and provides the logs collected by the Relay Server.
