@@ -1,7 +1,7 @@
 extends Node
 
 const uuid_chars = "0123456789abcdef"
-const relay_endpoint = "https://jbj-relay-eastus.servicebus.windows.net/hc-noauth/gameinfo"
+const relay_endpoint = "<Relay_Endpoint>
 
 var http_request: HTTPRequest
 var elapsed_time := 0.0
