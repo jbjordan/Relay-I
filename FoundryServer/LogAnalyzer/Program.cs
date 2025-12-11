@@ -22,7 +22,7 @@ PersistentAgentsClient agentClient = new(projectEndpoint, new DefaultAzureCreden
 
 // Upload local sample file to the agent
 PersistentAgentFileInfo uploadedAgentFile = agentClient.Files.UploadFile(
-    filePath: "relayserver_v1.txt",
+    filePath: "relayserver.txt",
     purpose: PersistentAgentFilePurpose.Agents
 );
 

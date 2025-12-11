@@ -13,7 +13,7 @@ namespace Server
 
         public static void Log(string level, string message, Exception? ex = null, bool isError = false)
         {
-            if (message.Length < 5)
+            if (message.Length < 20)
             {
                 return; // ignore very short messages
             }
